@@ -13,6 +13,14 @@ main {
     height: 100vh;
 }
 
+@media(max-width: 500px) {
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
 .grid {
     display: grid;
     grid-template-columns: 400px 400px;
@@ -23,6 +31,15 @@ main {
 @media(min-width: 1920px) {
     .grid {
         grid-template-columns: 500px 500px;
+    }
+}
+
+@media(max-width: 500px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -143,6 +160,31 @@ p {
     }
 }
 
+@media(max-width: 500px) {
+    .daniel {
+        justify-content: unset;
+        margin-top: 50px;
+        height: 450px;
+        width: 350px;
+        background-position: 205px 0;
+        background-size: 100px;
+    }
+
+    .daniel img {
+        width: 30px;
+    }
+
+    .daniel .title {
+        margin-top: 20px;
+        width: 262px;
+    }
+
+    .daniel .review {
+        margin-top: 30px;
+        width: 246px;
+    }
+}
+
 
 
 
@@ -178,6 +220,30 @@ p {
     .jonathan .review {
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    .jonathan {
+        justify-content: unset;
+        height: 250px;
+        width: 350px;
+        background-position: 205px 0;
+        background-size: 100px;
+    }
+
+    .jonathan img {
+        width: 30px;
+    }
+
+    .jonathan .title {
+        margin-top: 20px;
+        width: 262px;
+    }
+
+    .jonathan .review {
+        margin-top: 30px;
+        width: 275px;
     }
 }
 
@@ -231,6 +297,30 @@ p {
     }
 }
 
+@media(max-width: 500px) {
+    .jeanette {
+        justify-content: unset;
+        height: 250px;
+        width: 350px;
+        background-position: 205px 0;
+        background-size: 100px;
+    }
+
+    .jeanette img {
+        width: 30px;
+    }
+
+    .jeanette .title {
+        margin-top: 20px;
+        width: 262px;
+    }
+
+    .jeanette .review {
+        margin-top: 30px;
+        width: 246px;
+    }
+}
+
 
 
     /* PATRICK */
@@ -265,6 +355,30 @@ p {
         margin-top: 25px;
         margin-bottom: 50px;
         width: 85%;
+    }
+}
+
+@media(max-width: 500px) {
+    .patrick {
+        justify-content: unset;
+        height: 400px;
+        width: 350px;
+        background-position: 205px 0;
+        background-size: 100px;
+    }
+
+    .patrick img {
+        width: 30px;
+    }
+
+    .patrick .title {
+        margin-top: 20px;
+        width: 262px;
+    }
+
+    .patrick .review {
+        margin-top: 30px;
+        width: 255px;
     }
 }
 
@@ -317,6 +431,29 @@ p {
     .kira .review {
         width: 79%;
         margin-top: 31px;
+    }
+}
+
+@media(max-width: 500px) {
+    .kira {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        height: 450px;
+        width: 350px;
+    }
+
+    .kira img {
+        width: 30px;
+    }
+
+    .kira .title {
+        line-height: 24px;
+    }
+
+    .kira .review {
+        width: 75%;
+        line-height: 18px;
     }
 }
 
